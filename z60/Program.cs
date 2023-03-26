@@ -8,23 +8,6 @@ Console.WriteLine($"");
 int[,,] array3D = new int[x, y, z];
 CreateArray(array3D);
 WriteArray(array3D);
-bool NumberOfThrees(int n)
-{
-    int count {};
-    while (n)
-    {
-        n /= 10;
-        ++count;
-    }
- 
-    return count == 3;
-}
- 
-int main()
-{
-    bool f ("{NumberOfThrees(-123) }");
-    return 0;
-} 
 
 int InputNumbers(string input)
 {
@@ -84,7 +67,4 @@ void CreateArray(int[,,] array3D)
       }
     }
   }
-}
-{
-  Console.WriteLine("введите трехзначное число");
 }
