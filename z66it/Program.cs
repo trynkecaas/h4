@@ -1,4 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿// Задайте значения M и N. Напишите программу, которая найдёт сумму натуральных элементов в промежутке от M до N
 int M = InputInt("Введите M:");
 int N = InputInt("Введите N:");
 Console.WriteLine($"Сумма элементов от {M} до {N} = {CountNaturalSum(M, N)}");
